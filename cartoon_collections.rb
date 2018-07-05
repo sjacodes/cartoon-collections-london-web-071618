@@ -10,18 +10,6 @@ def summon_captain_planet(planeteer_calls)
     planeteer_calls.collect do |call|
       call.capitalize + "!"
     end
-    puts capitalized_elements.
-end
-
-
-
-def summon_captain_planet(veggies)# code an argument here
-  # Your code here
-  # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-    veggies.collect do |call| 
-    call.capitalize + "!"
-  end
-
 end
 
 
