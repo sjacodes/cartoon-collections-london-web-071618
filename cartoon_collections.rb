@@ -27,7 +27,7 @@ end
 
  cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.find do |cheese|
-    cheese.include?(cheese)
+    string.include?(cheese)
   end
 end
 
