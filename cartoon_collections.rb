@@ -4,6 +4,17 @@ def roll_call_dwarves(dwarf_names)
    list_of_dwarf_names.push(#{names)
 end
 
+
+ announcement = "The line is currently:"
+    katz_deli.each_with_index do |name, index|
+      announcement.concat(" #{index.to_i + 1}. #{name}")
+    end
+    puts announcement
+  end
+
+
+
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
