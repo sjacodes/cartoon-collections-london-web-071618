@@ -25,13 +25,5 @@ def find_the_cheese(strings)
   strings.include?(cheese_types)
 end
 
- cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.find do |cheese|
-    string.include?(cheese)
-  end
-end
-
-
-
 
 
