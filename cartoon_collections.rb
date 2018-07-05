@@ -21,18 +21,12 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find do |element|
-    c
-  
-  
-  def find_the_cheese(selection)# code an argument here
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  found = selection.find do  |n|
-    cheese_types.include?(n)
-    end
-    return found
+  found_cheese = array.find do |cheese|
+    cheese_types.include?(cheese)
+  end
+  return found_cheese
 end
-
+  
 
 
 
